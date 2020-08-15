@@ -7,23 +7,11 @@ body {
   margin: 0em
 }
 
-/* .container-left {
-  width: 66%;
-  margin: none;
-  overflow: hidden;
-} */
-
 .container-left {
   width: 66%;
   padding: 0 10px 0 0;
   float: left
 }
-
-/* .container-right {
-  width: 33%;
-  margin: none;
-  overflow: hidden;
-} */
 
 .container{
   width: 80%;
@@ -66,7 +54,7 @@ body {
   color: orange;
 }
 
-#showcase {
+#main-image {
   background-image:url(../images/1.jpg);
   background-size: cover;
   background-position: center;
@@ -74,7 +62,7 @@ body {
   width: 66%;
 }
 
-#showcase-title {
+#main-title {
   color: black;
   font-size: 40px;
   line-height: 1.5em;
@@ -99,12 +87,7 @@ body {
   padding: 20px;
 }
 
-/* #main-footer {
-  background: cyan;
-  color: cyan;
-  padding: 25px;
-  margin-top: 50px;
-} */
+
 
 .other_attractions {
   width: 33%;
@@ -114,44 +97,6 @@ body {
   display: right;
   display: top;
 
-}
-
-/* .other_attractions {
-  width: 33%;
-  padding: 0 10px 0 0;
-  float: right;
-  color: black;
-  font-weight: bold;
-  display: right;
-  flex-direction: row;
-  flex-flow: row wrap;
-  flex: 33%;
-  justify-content: space-around; */
-  /* padding: 50px 20px 20px 20px; */
-  /* width: 75%; */
-  /* margin: auto; */
-/* } */
-
-@media(max-width:600px){
-
-  /* .first-column {
-    width: 66%;
-    padding: 0 10px 0 0;
-    float: left
-  }
-
-  .second-column {
-    width: 33%;
-    padding: 0 10px 0 0;
-    float: right
-  } */
-
-  #main{
-    width: 100%;
-  }
-  #main-footer{
-  width: 100%;
-  }
 }
 
 .myimg{
