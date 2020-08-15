@@ -1,0 +1,161 @@
+body {
+  background-color: white;
+  color: black;
+  font-family: Arial;
+  font-size: 12px;
+  line-height: 1.5em;
+  margin: 0em
+}
+
+/* .container-left {
+  width: 66%;
+  margin: none;
+  overflow: hidden;
+} */
+
+.container-left {
+  width: 66%;
+  padding: 0 10px 0 0;
+  float: left
+}
+
+/* .container-right {
+  width: 33%;
+  margin: none;
+  overflow: hidden;
+} */
+
+.container{
+  width: 80%;
+  margin: auto;
+  overflow: hidden;
+}
+
+#header {
+  padding: 10px;
+  background-color: darkred;
+  color: white;
+  font-size: 30;
+  line-height: 2em;
+  text-align: left;
+}
+
+.nav-container {
+  display: flex;
+  padding: 10px;
+  justify-content: space-evenly;
+}
+
+#navbar {
+  background-color: rgb(90, 90, 90);
+}
+
+#navbar li{
+  display: flex;
+}
+
+#navbar a{
+  color: white;
+  text-decoration: underline;
+  font-size: 20px;
+  text-align: left;
+
+}
+
+#navbar a:hover{
+  color: orange;
+}
+
+#showcase {
+  background-image:url(../images/1.jpg);
+  background-size: cover;
+  background-position: center;
+  min-height: 500px;
+  width: 66%;
+}
+
+#showcase-title {
+  color: black;
+  font-size: 40px;
+  line-height: 1.5em;
+  padding-top: 25px
+}
+
+#main-section {
+  background: white;
+  width: auto;
+}
+
+#main {
+  background: white;
+  margin-top: 1em;
+  padding: 30px;
+}
+
+#footer {
+  background: rgb(50, 50, 50);
+  color: white;
+  width: auto;
+  padding: 20px;
+}
+
+/* #main-footer {
+  background: cyan;
+  color: cyan;
+  padding: 25px;
+  margin-top: 50px;
+} */
+
+.other_attractions {
+  width: 33%;
+  padding: 0 10px 0 0;
+  float: right;
+  font-weight: bold;
+  display: right;
+  display: top;
+
+}
+
+/* .other_attractions {
+  width: 33%;
+  padding: 0 10px 0 0;
+  float: right;
+  color: black;
+  font-weight: bold;
+  display: right;
+  flex-direction: row;
+  flex-flow: row wrap;
+  flex: 33%;
+  justify-content: space-around; */
+  /* padding: 50px 20px 20px 20px; */
+  /* width: 75%; */
+  /* margin: auto; */
+/* } */
+
+@media(max-width:600px){
+
+  /* .first-column {
+    width: 66%;
+    padding: 0 10px 0 0;
+    float: left
+  }
+
+  .second-column {
+    width: 33%;
+    padding: 0 10px 0 0;
+    float: right
+  } */
+
+  #main{
+    width: 100%;
+  }
+  #main-footer{
+  width: 100%;
+  }
+}
+
+.myimg{
+  width:300px;
+  height:150px;
+  object-fit: cover;
+}
